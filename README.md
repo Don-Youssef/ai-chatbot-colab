@@ -85,9 +85,9 @@ This project provides a reproducible deep learning framework for intent-based ch
 ai-chatbot-colab/
 │
 ├── Simple_Chatbot.ipynb  # Colab notebook with step-by-step implementation
-|———— index.html            # Demo chatbot interface
-├── data.json             # Training dataset of intents and responses
-├── README.md             # Documentation
-└── .gitignore            # Ignore unnecessary files and large artifacts
+├── index.html             # Demo chatbot interface
+├── data.json              # Training dataset of intents and responses
+├── README.md              # Documentation
+└── .gitignore             # Ignore unnecessary files and large artifacts
 ```
 
