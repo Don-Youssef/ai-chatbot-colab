@@ -69,6 +69,8 @@ The system demonstrates reliable intent recognition and coherent response genera
 **User:** Thanks dude, see you  
 **Bot:** You're welcome!
 
+Try the interactive demo here: [AI Chatbot Demo](https://don-youssef.github.io/ai-chatbot-colab/)
+
 The framework is designed to be **extendable**, allowing researchers to add new intents, retrain the model, and refine the conversational interface.
 
 ---
