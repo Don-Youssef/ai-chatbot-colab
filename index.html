@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Chatbot Research Project - Glitch Edition</title>
+<style>
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: #0b0b0b;
+    color: #eaeaea;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Scanlines effect */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* Header */
+h1 {
+    color: #ff7a00;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 8px #ff7a00, 0 0 16px #ff7a00;
+}
+
+/* Chat Box */
+.chat-box {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    height: 450px;
+    overflow-y: auto;
+    box-shadow: 0 0 30px rgba(255,122,0,0.2);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* Messages */
+.msg {
+    max-width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 12px;
+    position: relative;
+    animation: slideIn 0.3s ease forwards;
+    text-shadow: 0 0 4px #ff0000, 0 0 6px #ff7a00;
+}
+
+/* Glitch effect */
+.msg.glitch::before, .msg.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    color: #ff0000;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+
+@keyframes glitchRed {
+    0% {clip: rect(0,9999px,0,0);}
+    10% {clip: rect(10px,9999px,20px,0);}
+    20% {clip: rect(30px,9999px,40px,0);}
+    30% {clip: rect(50px,9999px,60px,0);}
+    40% {clip: rect(20px,9999px,30px,0);}
+    50% {clip: rect(0,9999px,10px,0);}
+    60% {clip: rect(60px,9999px,70px,0);}
+    70% {clip: rect(0,9999px,10px,0);}
+    80% {clip: rect(40px,9999px,50px,0);}
+    90% {clip: rect(10px,9999px,20px,0);}
+    100% {clip: rect(0,9999px,0,0);}
+}
+
+.msg.user {
+    background: #1f1f1f;
+    color: orange;
+    align-self: flex-end;
+}
+
+.msg.bot {
+    background: #1a1a1a;
+    color: red;
+    align-self: flex-start;
+}
+
+/* Typing effect */
+.typing {
+    color: lime;
+    font-style: italic;
+}
+
+/* Slide animation */
+@keyframes slideIn {
+    0% {opacity:0; transform: translateY(20px);}
+    100% {opacity:1; transform: translateY(0);}
+}
+
+/* Input Area */
+.input-area {
+    display: flex;
+    margin-top: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    background: #1a1a1a;
+    border: none;
+    color: orange;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    margin-left: 8px;
+    border: 2px solid #ff7a00;
+    background: transparent;
+    color: #ff7a00;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #ff7a00;
+    color: #0b0b0b;
+    transform: scale(1.1);
+}
+
+/* Scrollbar */
+.chat-box::-webkit-scrollbar {
+    width: 8px;
+}
+.chat-box::-webkit-scrollbar-track {
+    background: #0b0b0b;
+}
+.chat-box::-webkit-scrollbar-thumb {
+    background: #ff7a00;
+    border-radius: 4px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Chatbot Demo - Glitch Neon</h1>
+
+    <div class="chat-box" id="chat">
+    </div>
+
+    <div class="input-area">
+        <input type="text" id="userInput" placeholder="Type your message..." />
+        <button id="sendBtn">➤</button>
+    </div>
+</div>
+
+<script>
+const conversation = [
+    { user: "Who are you?", bot: "I'm Zain, your Artificial Intelligent Assistant bot" },
+    { user: "Ok Zain, I need some help", bot: "Yes Sure, How can I support you?" },
+    { user: "I'm feeling sad", bot: "Get close to Allah" },
+    { user: "Thanks dude, see you", bot: "You're welcome!" }
+];
+
+const chatBox = document.getElementById("chat");
+const input = document.getElementById("userInput");
+const sendBtn = document.getElementById("sendBtn");
+let convIndex = 0;
+
+function addMessage(text, cls) {
+    const div = document.createElement("div");
+    div.className = `msg ${cls} glitch`;
+    div.dataset.text = text;
+    div.innerText = text;
+    chatBox.appendChild(div);
+    chatBox.scrollTop = chatBox.scrollHeight;
+    return div;
+}
+
+function botReply(text, delay=800) {
+    const typing = addMessage("typing...", "bot typing");
+    typing.classList.remove("glitch");
+    setTimeout(() => {
+        typing.remove();
+        const msg = addMessage(text, "bot");
+        // Glitch effect
+        setInterval(() => { msg.style.transform = `translate(${Math.random()*2}px, ${Math.random()*2}px)`; }, 80);
+    }, delay);
+}
+
+// Play predefined conversation automatically
+function playConversation() {
+    if(convIndex < conversation.length) {
+        const msg = conversation[convIndex];
+        addMessage(msg.user, "user");
+        botReply(msg.bot, 1000);
+        convIndex++;
+        setTimeout(playConversation, 2000);
+    }
+}
+
+setTimeout(playConversation, 1000);
+
+// Send user input manually
+sendBtn.addEventListener("click", () => {
+    if(input.value.trim() !== "") {
+        addMessage(input.value.trim(), "user");
+        botReply("Sorry, this demo uses a predefined conversation.", 1000);
+        input.value = "";
+    }
+});
+</script>
+
+</body>
+</html>
