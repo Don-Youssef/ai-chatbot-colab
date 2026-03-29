@@ -87,7 +87,7 @@ This project provides a reproducible deep learning framework for intent-based ch
 ai-chatbot-colab/
 │
 ├── Simple_Chatbot.ipynb   # Colab notebook with step-by-step implementation
-├── index.html             # Demo neon matrix chatbot interface
+├── index.html             # Neon matrix chatbot interface demo
 ├── data.json              # Training dataset of intents and responses
 ├── README.md              # Documentation
 └── .gitignore             # Ignore unnecessary files and large artifacts
