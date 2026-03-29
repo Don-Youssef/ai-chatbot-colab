@@ -209,7 +209,7 @@ function botReply(text, delay=800) {
 
 // Load data.json
 let botData = [];
-fetch('data.json')
+fetch('https://raw.githubusercontent.com/Don-Youssef/ai-chatbot-colab/main/data.json')
 .then(res => res.json())
 .then(data => botData = data.data)
 .catch(err => console.error("Failed to load data.json"));
