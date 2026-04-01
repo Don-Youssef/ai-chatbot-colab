@@ -43,7 +43,7 @@ Conversational agents are increasingly employed for automated communication acro
 ## 3. Experiments
 
 - The chatbot was trained on a curated intent dataset to evaluate its ability to classify user input accurately.  
-- Experiments include **user input simulation** and **real-time interaction** to assess qualitative performance.  
+- Experiments include **user input simulation** and **real-time interaction** with **interactive neon matrix interface** to assess qualitative performance.  
 - Optional metrics: training loss and validation loss plots.
 
 ---
