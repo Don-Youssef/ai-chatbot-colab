@@ -79,13 +79,13 @@ h1 {
 
 .msg.bot {
     background: #1a1a1a;
-    color: #ff0000; /* أحمر غامق نيون */
+    color: #ff0000; /* Neon Red Color */
     align-self: flex-start;
     text-shadow: 0 0 6px #ff0000, 0 0 10px #ff0000;
 }
 
 .msg.typing {
-    color: #00cc00; /* أخضر غامق نيون */
+    color: #00cc00; /* Neon Green Color */
     font-style: italic;
     text-shadow: 0 0 6px #00cc00, 0 0 10px #00cc00;
 }
@@ -148,7 +148,7 @@ button:hover {
 <canvas id="matrix"></canvas>
 
 <div class="container">
-    <h1>AI Chatbot Demo</h1>
+    <h1>Conversational AI Chatbot Simulation</h1>
 
     <div class="chat-box" id="chat">
     </div>
@@ -172,7 +172,7 @@ const drops = Array(Math.floor(columns)).fill(1);
 function drawMatrix() {
     ctx.fillStyle = 'rgba(11,11,11,0.05)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = '#ff6600'; // برتقالي غامق نيون
+    ctx.fillStyle = '#ff6600'; // Neon Orange Color
     ctx.font = fontSize + 'px monospace';
     for (let i = 0; i < drops.length; i++) {
         const text = letters[Math.floor(Math.random()*letters.length)];
@@ -230,7 +230,7 @@ setTimeout(playInitialConversation, 1000);
 sendBtn.addEventListener("click", () => {
     if(input.value.trim() !== "") {
         addMessage(input.value.trim(), "user");
-        botReply("Sorry, this demo uses a predefined conversation.", 1000);
+        botReply("Sorry, this simulation uses a predefined conversation.", 1000);
         input.value = "";
     }
 });
