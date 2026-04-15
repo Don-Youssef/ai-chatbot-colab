@@ -210,10 +210,7 @@ function botReply(text, delay=800) {
 // Initial fixed conversation
 async function playInitialConversation() {
     const initialConv = [
-        {user: "Who are you?", bot: "I'm Zain, your Artificial Intelligent Assistant bot."},
-        {user: "Ok Zain, I need some help", bot: "Yes, sure. How can I support you?"},
-        {user: "I'm feeling sad", bot: "Get close to Allah."},
-        {user: "Thanks dude, see you", bot: "You're welcome!"}
+        {user: "I'm feeling sad", bot: "Get close to Allah."}
     ];
 
     for(const msg of initialConv) {
