@@ -101,6 +101,6 @@ ai-chatbot-colab/
 ├── Chatbot.ipynb          # Colab notebook with step-by-step implementation
 ├── index.html             # Conversational chatbot simulation with neon matrix interface
 ├── data.json              # Training dataset of intents and responses
-├── README.md              # Documentation
+├── README.md              # Project documentation
 └── .gitignore             # Ignore unnecessary files and large artifacts
 ```
