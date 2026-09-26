@@ -103,5 +103,6 @@ ai-chatbot-colab/
 ├── index.html             # Conversational chatbot simulation with neon matrix interface
 ├── data.json              # Training dataset of intents and responses
 ├── README.md              # Project documentation
+├── LICENSE                # Project license and legal terms
 └── .gitignore             # Ignore unnecessary files and large artifacts
 ```
