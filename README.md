@@ -1,5 +1,17 @@
 # Deep Learning-Based Intent Classification Chatbot in Google Colab with Interactive Neon Matrix Interface
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Don-Youssef/ai-chatbot-colab)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243.svg)](https://numpy.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-F7931E.svg)](https://scikit-learn.org/)
+[![JSON](https://img.shields.io/badge/Data-JSON-000000.svg)]()
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00.svg)](https://www.tensorflow.org/)
+[![Domain](https://img.shields.io/badge/Domain-AI%20Chatbot%20%26%20NLP-blueviolet.svg)]()
+[![Status](https://img.shields.io/badge/Status-Public%20Template-brightgreen.svg)]()
+
+
+
 Build a deep learning chatbot from scratch using Google Colab, TensorFlow, and a interactive neon matrix interface architecture.
 
 ---
