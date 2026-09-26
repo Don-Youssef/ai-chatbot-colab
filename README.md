@@ -86,7 +86,7 @@ This project provides a reproducible deep learning framework for intent-based ch
 ```text
 ai-chatbot-colab/
 │
-├── Chatbot.ipynb   # Colab notebook with step-by-step implementation
+├── Chatbot.ipynb          # Colab notebook with step-by-step implementation
 ├── index.html             # Conversational chatbot simulation with neon matrix interface
 ├── data.json              # Training dataset of intents and responses
 ├── README.md              # Documentation
