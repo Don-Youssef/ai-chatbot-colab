@@ -7,6 +7,7 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-F7931E.svg)](https://scikit-learn.org/)
 [![JSON](https://img.shields.io/badge/Data-JSON-000000.svg)]()
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00.svg)](https://www.tensorflow.org/)
+[![UI Interface](https://img.shields.io/badge/UI-Interactive%20Neon%20Matrix-00FF66.svg)]()
 [![Domain](https://img.shields.io/badge/Domain-AI%20Chatbot%20%26%20NLP-blueviolet.svg)]()
 [![Status](https://img.shields.io/badge/Status-Public%20Template-brightgreen.svg)]()
 
