@@ -1,6 +1,6 @@
 # Deep Learning-Based Intent Classification Chatbot in Google Colab with Interactive Neon Matrix Interface
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1repRpaiyN1ELFpEc6ktQ78u6qmrklvNq)
+[![Open In Colab](https://img.shields.io/badge/Open_In_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1kOYURy8TVGIryGueFkyb3NKfmZQbl2bw#scrollTo=X0bdVfpHhSpK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![JSON](https://img.shields.io/badge/Data-JSON-000000?logo=json&logoColor=white)]()
