@@ -2,14 +2,15 @@
 
 [![Open In Colab](https://img.shields.io/badge/Open_In_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1kOYURy8TVGIryGueFkyb3NKfmZQbl2bw#scrollTo=X0bdVfpHhSpK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![JSON](https://img.shields.io/badge/Data-JSON-000000?logo=json&logoColor=white)]()
-[![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy&logoColor=white)](https://numpy.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
-[![TensorFlow & Keras](https://img.shields.io/badge/Framework-TensorFlow%202.x%20%7C%20Keras-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![UI Interface](https://img.shields.io/badge/UI-Interactive%20Neon%20Matrix-00FF66?logoColor=black)]()
-[![Domain](https://img.shields.io/badge/Domain-AI%20Chatbot%20%26%20NLP-8A2BE2)]()
 [![Status](https://img.shields.io/badge/Status-Public%20Template-239120?logo=github&logoColor=white)]()
+[![Domain](https://img.shields.io/badge/Domain-AI%20Chatbot%20%26%20NLP-8A2BE2)]()
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow & Keras](https://img.shields.io/badge/Framework-TensorFlow%202.x%20%7C%20Keras-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.2%2B-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![JSON](https://img.shields.io/badge/Data-JSON-000000?logo=json&logoColor=white)]()
+[![UI Interface](https://img.shields.io/badge/UI-Interactive%20Neon%20Matrix-00FF66?logoColor=black)]()
+
 
 
 
