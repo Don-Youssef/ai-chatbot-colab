@@ -16,10 +16,6 @@
 
 ---
 
-Build a deep learning chatbot from scratch using Google Colab, TensorFlow, and a interactive neon matrix interface architecture.
-
----
-
 ## Abstract
 
 This repository presents a step-by-step implementation of a deep learning-based chatbot using Python and TensorFlow within Google Colab. The project demonstrates fundamental concepts in natural language processing and intent classification, emphasizing reproducibility, methodological rigor, and a structured experimental approach. Despite the simplicity of the dataset, the framework provides a solid foundation for further research in conversational AI.
