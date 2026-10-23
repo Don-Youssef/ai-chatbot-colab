@@ -94,7 +94,6 @@ This project provides a reproducible deep learning framework for intent-based ar
 
 ```text
 ai-chatbot-colab/
-│
 ├── Chatbot.ipynb          # Colab notebook with step-by-step implementation
 ├── index.html             # Interactive Neon Matrix interface simulation
 ├── data.json              # Training dataset of intents and responses
