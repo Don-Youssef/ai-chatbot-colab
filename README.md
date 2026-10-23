@@ -1,4 +1,4 @@
-# Deep Learning-Based Intent Classification Chatbot in Google Colab with Interactive Neon Matrix Interface
+# Deep Learning-Based Intent Classification Engine in Google Colab with Interactive Neon Matrix Interface
 
 [![Open In Colab](https://img.shields.io/badge/Open_In_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1kOYURy8TVGIryGueFkyb3NKfmZQbl2bw#scrollTo=X0bdVfpHhSpK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
@@ -18,7 +18,7 @@
 
 ## Abstract
 
-This repository presents a step-by-step implementation of a deep learning-based chatbot using Python and TensorFlow within Google Colab. The project demonstrates fundamental concepts in natural language processing and intent classification, emphasizing reproducibility, methodological rigor, and a structured experimental approach. Despite the simplicity of the dataset, the framework provides a solid foundation for further research in conversational AI.
+This repository presents a step-by-step implementation of a deep learning-based engine using Python and TensorFlow within Google Colab. The project demonstrates fundamental concepts in natural language processing and intent classification, emphasizing reproducibility, methodological rigor, and a structured experimental approach. Despite the simplicity of the dataset, the framework provides a solid foundation for further research in conversational AI.
 
 ---
 
