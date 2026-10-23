@@ -1,4 +1,4 @@
-# Deep Learning-Based Intent Classification Engine in Google Colab with Interactive Neon Matrix Interface
+# Neural Intent Classification Engine | Interactive Neon Matrix Architecture
 
 [![Open In Colab](https://img.shields.io/badge/Open_In_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1kOYURy8TVGIryGueFkyb3NKfmZQbl2bw#scrollTo=X0bdVfpHhSpK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
@@ -11,20 +11,17 @@
 [![JSON](https://img.shields.io/badge/Data-JSON-000000?logo=json&logoColor=white)]()
 [![UI Interface](https://img.shields.io/badge/UI-Interactive%20Neon%20Matrix-00FF66?logoColor=black)]()
 
-
-
-
 ---
 
 ## Abstract
 
-This repository presents a step-by-step implementation of a deep learning-based engine using Python and TensorFlow within Google Colab. The project demonstrates fundamental concepts in natural language processing and intent classification, emphasizing reproducibility, methodological rigor, and a structured experimental approach. Despite the simplicity of the dataset, the framework provides a solid foundation for further research in conversational AI.
+This repository presents a step-by-step implementation of a deep learning-based intent classification engine using Python and TensorFlow within Google Colab. The project demonstrates fundamental concepts in natural language processing and intent classification, emphasizing reproducibility, methodological rigor, and a structured experimental approach. Despite the simplicity of the dataset, the framework provides a solid foundation for further research in conversational AI ecosystems.
 
 ---
 
 ## 1. Introduction
 
-Conversational agents are increasingly employed for automated communication across multiple domains. This project explores the development of an intent-based chatbot powered by a neural network. The focus is on **clarity, reproducibility, and scientific methodology**, offering an educational and research-oriented framework.
+Conversational agents are increasingly employed for automated communication across multiple domains. This project explores the development of a neural intent classification engine powered by deep neural networks. The focus is on **clarity, reproducibility, and scientific methodology**, offering an educational and research-oriented framework.
 
 ---
 
@@ -42,19 +39,19 @@ Conversational agents are increasingly employed for automated communication acro
 - **Input:** Tokenized sequences of user messages.  
 - **Hidden layers:** Fully connected dense layers with ReLU activation.  
 - **Output:** Softmax activation to classify intents.  
-- **Training summary:** Use `model.summary()` in notebook to visualize the architecture and layer parameters.  
+- **Training summary:** Use `model.summary()` in the notebook to visualize the architecture and layer parameters.  
 - The architecture is modular, allowing **dataset expansion** or **hyperparameter tuning**.  
 
 ### 2.3 Interactive Neon Matrix Interface Architecture
 
-- An **HTML/CSS/JavaScript interface** is embedded in the Colab notebook.  
+- An HTML/CSS/JavaScript interface is embedded within the ecosystem.  
 - Supports **real-time messaging**, **typing simulation**, **neon matrix effect**, **moving eye**, and **visual effects** to enhance user interaction.
 
 ---
 
 ## 3. Experiments
 
-- The chatbot was trained on a curated intent dataset to evaluate its ability to classify user input accurately.  
+- The neural intent engine was trained on a curated intent dataset to evaluate its ability to classify user input accurately.  
 - Experiments include **user input simulation** and **real-time interaction** to assess qualitative performance.  
 - Optional metrics: training loss and validation loss plots.
 
@@ -81,7 +78,7 @@ The system demonstrates reliable intent recognition and coherent response genera
 **User:** Thanks dude, see you  
 **Bot:** You're welcome!
 
-See the chatbot conversation simulation with neon matrix interface here: [ AI Chatbot Conversation Simulation](https://don-youssef.github.io/ai-chatbot-colab/)
+See the live simulation with interactive Neon Matrix interface here: [AI Neural Intent Engine Simulation](https://don-youssef.github.io/ai-chatbot-colab/)
 
 The framework is designed to be **extendable**, allowing researchers to add new intents, retrain the model, and refine the conversational interface architecture.
 
@@ -89,7 +86,7 @@ The framework is designed to be **extendable**, allowing researchers to add new 
 
 ## 5. Conclusion
 
-This project provides a reproducible deep learning framework for intent-based chatbots in Google Colab. It serves as a methodological example for beginners and researchers alike, highlighting core NLP and deep learning principles. Future work may incorporate **transformer-based models**, **multilingual capabilities**, and **deployment in production environments**.
+This project provides a reproducible deep learning framework for intent-based architectures in Google Colab. It serves as a methodological example for beginners and researchers alike, highlighting core NLP and deep learning principles. Future work may incorporate transformer-based models, multilingual capabilities, and deployment in production environments.
 
 ---
 
@@ -99,9 +96,8 @@ This project provides a reproducible deep learning framework for intent-based ch
 ai-chatbot-colab/
 │
 ├── Chatbot.ipynb          # Colab notebook with step-by-step implementation
-├── index.html             # Conversational chatbot simulation with neon matrix interface
+├── index.html             # Interactive Neon Matrix interface simulation
 ├── data.json              # Training dataset of intents and responses
 ├── README.md              # Project documentation
 ├── LICENSE                # Project license and legal terms
 └── .gitignore             # Ignore unnecessary files and large artifacts
-```
