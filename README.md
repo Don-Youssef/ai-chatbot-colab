@@ -1,4 +1,4 @@
-# Neural Intent Classification Engine | Interactive Neon Matrix Architecture
+# Neural Intent Classification Engine with Interactive Neon Matrix Architecture
 
 [![Open In Colab](https://img.shields.io/badge/Open_In_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1kOYURy8TVGIryGueFkyb3NKfmZQbl2bw#scrollTo=X0bdVfpHhSpK)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
