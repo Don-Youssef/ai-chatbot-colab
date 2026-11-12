@@ -1,6 +1,6 @@
 # Neural Intent Classification Engine with Interactive Neon Matrix Architecture
 
-[![Open In Colab](https://img.shields.io/badge/Open_In_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1kOYURy8TVGIryGueFkyb3NKfmZQbl2bw#scrollTo=X0bdVfpHhSpK)
+[![Open In Colab](https://img.shields.io/badge/Open_In_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1repRpaiyN1ELFpEc6ktQ78u6qmrklvNq#scrollTo=Al82rNLiACAB)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?logo=open-source-initiative&logoColor=white)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Public%20Template-239120?logo=github&logoColor=white)]()
 [![Domain](https://img.shields.io/badge/Domain-AI%20Chatbot%20%26%20NLP-8A2BE2)]()
